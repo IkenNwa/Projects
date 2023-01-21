@@ -1,14 +1,13 @@
-import SunFill from "react-bootstrap-icons/dist/icons/sun-fill"
-function Info() {
+function Info({place, condition, icon, degree}) {
   return (
     <>
       <div className="info-main">
         <div>
-          <SunFill className="weather" />
+          <img src={icon} alt="Image Not Found" />
         </div>
         <div>
-          <h1>Abuja</h1>
-          <h2>30&#8451;</h2>
+          <h1>{place}</h1>
+          <h2>{degree}&#8451;</h2>
         </div>
       </div>
     </>

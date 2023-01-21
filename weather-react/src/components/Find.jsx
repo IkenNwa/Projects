@@ -4,7 +4,6 @@ function Find({location}) {
 
   function handleKey(e) {
     if(e.key === "Enter"){
-      console.log("Entering");
       location(e.target.value)
     }
   }
