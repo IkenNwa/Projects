@@ -25,3 +25,7 @@ function App() {
 }
 
 export default App
+
+
+
+//https://api.weatherapi.com/v1/current.json?key=6cab56368ccc4c149ce181405232101&q=London
