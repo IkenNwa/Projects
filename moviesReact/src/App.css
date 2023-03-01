@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 15vw;
+
+  padding: 10px;
+  outline: 1px solid #00000042;
+  border-radius: 20px;
+}
+.container > p {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.container > img {
+  width: 100%;
+  border-radius: 20px;
+}
+.container:hover{
+    box-shadow: 0px 0px 10px #00000052;
+}
